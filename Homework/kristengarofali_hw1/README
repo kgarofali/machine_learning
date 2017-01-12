@@ -1,0 +1,7 @@
+To run, first make sure you are in the correct directory (kristengarofali_hw1). Then to create data files with default paramters listed in the homework type ```python makedata.py``` or ```python makedata2.py```. This will create 'data.out' and 'data2.out'. Then to fit data using least squares method type ```python fitdata.py data.out``` or ```python fitdata.py data2.out```. This will print the fit values and make the appropriate plots.
+
+Note: code requires numpy and matplotlib. 
+
+Answers:
+(f) The residuals do not show any pattern.
+(k) The residuals do show a pattern; larger residuals correlate with larger values of x.
