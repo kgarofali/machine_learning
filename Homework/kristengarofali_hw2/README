@@ -1,0 +1,7 @@
+To run, first make sure you are in the correct directory (kristengarofali_hw2). Then type ```python gridsearch.py```. This will run brute force maximum likelihood calculation to get beta_0 and beta_1 and print the values to the terminal. 
+
+Note: code requires numpy and matplotlib.
+
+Answers:
+Estimated value for beta_zero: 1.91919191919
+Estimated value for beta_one: 2.92929292929
