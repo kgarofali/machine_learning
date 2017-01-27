@@ -1,0 +1,6 @@
+To run, first make sure you are in the correct directory (kristengarofali_hw3), then ```python makedata.py``` to generate data.out file. To find and print the mean type ```python findmean.py data.out```. To run bootstrap resampling type ```python bootstrap.py 10 data.out``` to resample 10 times, or ```python bootstrap.py 10000 data.out`` to resample 10000 times. To generate a histogram of the means from bootstrap resampling type ```python bootplot.py boot.out M=10000```.
+
+Answer for part g: M=1000 is sufficiently large. 
+
+Note: requires numpy and matplotlib.
+
