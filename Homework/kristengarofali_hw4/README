@@ -1,0 +1,6 @@
+To run, first make sure you are in the correct directory (kristengarofali_hw4), then type ```python maketrain.py iris.data``` to split data into test (iris.test) and training (iris.train) sets. Then type ```python splittrain.py iris.train``` to split training set into three subclasses, iris.setosa, iris.versicolor, and iris.virginica. Finally, type ```python trykde.py 0.1 iris.train``` to compute kde values for test set with bandwith of 0.1, and print results to file kde.out.
+
+Answers for part h:
+For each line in the test set (each line in kde.out), the iris type for the highest kde value matches the real classification. It properly classified all objects in the test set using kde based iris types. 
+
+Note: requires numpy and astropy. 
