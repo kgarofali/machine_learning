@@ -1,0 +1,6 @@
+To run, first make sure you are in the correct directory (kristengarofali_hw5), then type ```python trynn.py iris.test``` or ```python trynn3.py iris.test``` to create files nn.out and nn3.out.
+
+Answer to part (c):
+The nearest neighbor iris type is the same as the real classification for each line in iris.test.
+
+Note: requires numpy and astropy. 
