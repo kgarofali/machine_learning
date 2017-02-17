@@ -1,0 +1,11 @@
+To run, first make sure you are in the correct directory (kristengarofali_hw6), then type ```python crossvalidate5.py data.out 5 1 2```,
+where inputs are data.out (file containing data), 5 (k-value), 1 (slope, a), and 2 (intercept, b).
+
+Average MSE from part (a):
+9.53
+
+Answer to part (b):
+Another choice of model is a polynomial of higher order. The k-fold cross validation could be repeated
+for polynomials of different orders.
+
+Note: requires numpy 
