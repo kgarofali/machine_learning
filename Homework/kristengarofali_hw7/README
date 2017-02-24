@@ -1,0 +1,11 @@
+To run, first make sure you are in the correct directory (kristengarofali_hw7),
+then type ```python make_irisplots.py iris.data``` to run.
+
+Answer to part b:
+Given N attributes, and assuming we are choosing k attributes to plot against
+one another, there are N!/k!(N-k)! unique combinations (plots) possible.
+In part (a) we projected the data set onto a plane, plotting 2 attributes against
+one another. So in this case for N=4 attributes, and choosing k=2, there are
+10 distinct plots possible.
+
+Note: requires numpy, astropy, matplotlib, and pandas to run.
